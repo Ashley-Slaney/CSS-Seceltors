@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, Helvetica, Sans-serif;
+  margin: 0;
+  padding: 0;
+  background: lightgray;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  margin: 1rem 2rem;
+  padding: 0.5rem 1rem;
+  background: skyblue;
+  border-radius: 5px;
+  border: white solid 1px;
+}
+
+.to-left {
+  text-align: left;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+span.pink {
+  color: hotpink;
+}
+
+span.yellow {
+  color: yellow;
+}
+
+span.green {
+  color: green;
+}
+
+.t-yellow {
+  background: yellow;
+}
+
+.t-green {
+  background: green;
+}
+
+main h2 {
+  border-bottom: white dotted 1px;
+  padding-bottom: 2rem;
+}
+
+#section-1 h2:first-child {
+  border-bottom: white dotted 1px;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+table {
+  width: 525px;
+  height: 300px;
+  background: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid #333;
+}
+
+th,
+td {
+  width: 50px;
+}
+
+.box {
+  width: 200px;
+  height: 70px;
+}
+
+.blue-box {
+  background: blue;
+}
+
+.pink-box {
+  background: pink;
+}
+
+.red-box {
+  background: red;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.pink-text {
+  color: pink;
+}
+
+.red-text {
+  color: red;
+}
+
+.blue-border {
+  border: 5px solid blue;
+}
+.pink-border {
+  border: 5px solid pink;
+}
+.red-border {
+  border: 5px solid red;
+}

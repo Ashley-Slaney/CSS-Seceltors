@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <title>CSS Selectors</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>CSS Selectors</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <h2>
+          To style a web page with CSS, you must use selectors that can
+          manipulate the way HTML looks on a web page.
+        </h2>
+        <p>
+          Before you can style with CSS you must link the stylesheet in the head
+          by using the 'link' tag and setting the path to the CSS file in the
+          href.
+        </p>
+      </div>
+    </main>
+
+    <section id="section-1">
+      <div class="container to-left">
+        <h2>
+          A CSS element consists of three things, 'selector', 'property' and
+          'value'
+        </h2>
+        <h2>A CSS selector looks like this:</h2>
+        <p>
+          <span class="pink">body</span> { <br />
+          <span class="yellow">color</span> : <span class="green">green</span>;
+          <br />
+          }<br />
+        </p>
+        <p>
+          The <span class="pink">selector</span> in the example above is '<span
+            class="pink"
+            >body</span
+          >'. This defines which HTML element to select.
+        </p>
+        <p>
+          The <span class="yellow">property</span> in the example above is
+          '<span class="yellow">color</span>'. This property defines what is
+          going to happen to the HTML element that has been selected.
+        </p>
+        <p>
+          The <span class="green">value</span> in the example above is '<span
+            class="green"
+            >green</span
+          >'. This tells the property what action to give to the selected HTML
+          element.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>
+          Here is a table that shows you some
+          <span class="yellow">properties</span> and
+          <span class="green">values</span>:
+        </h2>
+        <table>
+          <tr>
+            <th></th>
+            <th class="t-yellow">color:</th>
+            <th class="t-yellow">background:</th>
+            <th class="t-yellow">border:</th>
+          </tr>
+          <tr>
+            <th class="t-green">Blue</th>
+            <th class="blue-text">Blue text</th>
+            <th>
+              <div class="box blue-box"></div>
+            </th>
+            <th class="box blue-border"></th>
+          </tr>
+          <tr>
+            <th class="t-green">Pink</th>
+            <th class="pink-text">pink text</th>
+            <th>
+              <div class="box pink-box"></div>
+            </th>
+            <th class="box pink-border"></th>
+          </tr>
+          <tr>
+            <th class="t-green">Red</th>
+            <th class="red-text">red text</th>
+            <th>
+              <div class="box red-box"></div>
+            </th>
+            <th class="box red-border"></th>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
